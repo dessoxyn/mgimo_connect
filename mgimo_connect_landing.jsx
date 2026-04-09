@@ -311,7 +311,7 @@ function SafeImage({ src, alt, className = "", fallbackLabel = "", loading = "la
 
 const ANALYTICS = {
   gaMeasurementId: "G-XXXXXXXXXX",
-  yandexMetrikaId: "00000000",
+  yandexMetrikaId: "108475612",
 };
 
 const FORM_ENDPOINT = "";
@@ -406,7 +406,7 @@ const STEPS = [
   {
     num: "04",
     title: "Едете в Стамбул",
-    text: "Участвуете в деловой и культурной программе, практикуете язык и забираете опыт, который реально можно использовать дальше.",
+    text: "Участвуете в деловой и культурной программе, практикуете язык и приобретаете опыт, который реально можно использовать дальше.",
   },
 ];
 
@@ -651,7 +651,7 @@ function trackEvent(eventName, payload = {}) {
     if (
       typeof window.ym === "function" &&
       ANALYTICS.yandexMetrikaId &&
-      ANALYTICS.yandexMetrikaId !== "00000000"
+      ANALYTICS.yandexMetrikaId !== "108475612"
     ) {
       window.ym(Number(ANALYTICS.yandexMetrikaId), "reachGoal", eventName);
     }
@@ -1104,10 +1104,10 @@ function MGIMOConnectLanding() {
           <div className="mx-auto max-w-7xl px-4 py-6 md:px-6">
             <div className="grid gap-3 md:grid-cols-4">
               {[
-                { icon: MapPin, title: BRAND.city, text: "международный город с сильной деловой и культурной средой" },
-                { icon: BriefcaseBusiness, title: "Карьерный акцент", text: "не просто поездка, а опыт для CV и позиционирования" },
-                { icon: Users, title: "Сильное окружение", text: "группа амбициозных студентов с общими интересами" },
-                { icon: Clock3, title: "Короткий формат", text: "вписывается в насыщенный учебный график" },
+                { icon: MapPin, title: BRAND.city, text: "Город с сильной деловой и культурной средой" },
+                { icon: BriefcaseBusiness, title: "Карьерный акцент", text: "Не просто поездка, а опыт для CV и позиционирования" },
+                { icon: Users, title: "Сильное окружение", text: "Группа амбициозных студентов с общими интересами" },
+                { icon: Clock3, title: "Короткий формат", text: "Вписывается в плотный учебный график" },
               ].map((item) => {
                 const Icon = item.icon;
                 return (
@@ -1460,7 +1460,7 @@ function MGIMOConnectLanding() {
             <FadeIn>
               <div className="rounded-[32px] border border-white/8 bg-white/[0.03] p-6 md:p-8">
                 <div className="mb-4 inline-flex items-center rounded-full border border-sky-300/20 bg-sky-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-sky-200">
-                  Финальный CTA
+                  Не упустите возможность
                 </div>
                 <h2 className="text-3xl font-black tracking-tight md:text-4xl">
                   Забронируй место сейчас, чтобы не думать об этом в последний момент.
@@ -1623,7 +1623,7 @@ function MGIMOConnectLanding() {
               </div>
 
               <p className="mt-4 max-w-2xl text-sm leading-6 text-slate-400">
-                Лендинг собран как готовая продающая страница: с понятным оффером, адаптивной структурой, визуалами, анимацией, формой заявки, CTA-сценариями и базовой аналитикой для отслеживания конверсий.
+              
               </p>
             </div>
 
@@ -1659,7 +1659,7 @@ function MGIMOConnectLanding() {
 
           <div className="mt-8 flex flex-col gap-3 border-t border-white/8 pt-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
             <div>© {year} {BRAND.name}. Все права защищены.</div>
-            <div>Google Analytics 4 и Яндекс.Метрика уже предусмотрены — подставьте реальные ID.</div>
+            <div>.</div>
           </div>
         </div>
       </footer>
