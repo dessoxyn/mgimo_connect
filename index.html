@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MGIMO Connect — карьерная поездка в Стамбул для студентов МГИМО</title>
+    <meta
+      name="description"
+      content="Продающий лендинг карьерной поездки в Стамбул для студентов МГИМО: программа, тарифы, отзывы, FAQ и форма заявки."
+    />
+    <meta name="theme-color" content="#020617" />
+    <meta property="og:title" content="MGIMO Connect" />
+    <meta
+      property="og:description"
+      content="Карьерная поездка в Стамбул для студентов МГИМО: 5 дней международной среды, нетворкинга и опыта для CV."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: #020617;
+        color: #fff;
+        font-family: "Manrope", system-ui, sans-serif;
+      }
+
+      #root {
+        min-height: 100vh;
+      }
+    </style>
+    <script>
+      window.tailwind = window.tailwind || {};
+      window.tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Manrope", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" data-presets="env,react" src="./mgimo_connect_landing.jsx"></script>
+  </body>
+</html>
