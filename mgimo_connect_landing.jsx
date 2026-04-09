@@ -1659,7 +1659,7 @@ function MGIMOConnectLanding() {
 
           <div className="mt-8 flex flex-col gap-3 border-t border-white/8 pt-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
             <div>© {year} {BRAND.name}. Все права защищены.</div>
-            <div>.</div>
+            <div>Хамлай Клим, Шимшилов Назар, 3-ИМТУР-3</div>
           </div>
         </div>
       </footer>
